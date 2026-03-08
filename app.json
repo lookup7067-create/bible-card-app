@@ -38,6 +38,14 @@
             "backgroundColor": "#000000"
           }
         }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "말씀 카드를 앨범에 저장하기 위해 권한이 필요합니다.",
+          "savePhotosPermission": "말씀 카드를 앨범에 저장하기 위해 권한이 필요합니다.",
+          "isAccessMediaLocationEnabled": true
+        }
       ]
     ],
     "experiments": {
