@@ -18,6 +18,7 @@ import * as Sharing from 'expo-sharing';
 import * as MediaLibrary from 'expo-media-library';
 import ViewShot from 'react-native-view-shot';
 import { useFonts, GamjaFlower_400Regular } from '@expo-google-fonts/gamja-flower';
+import { NanumPenScript_400Regular } from '@expo-google-fonts/nanum-pen-script';
 import * as SplashScreen from 'expo-splash-screen';
 
 SplashScreen.preventAutoHideAsync();
@@ -132,6 +133,7 @@ export default function Index() {
 
   const [fontsLoaded] = useFonts({
     GamjaFlower: GamjaFlower_400Regular,
+    NanumPen: NanumPenScript_400Regular,
   });
 
   useEffect(() => {
@@ -581,14 +583,15 @@ const styles = StyleSheet.create({
     marginTop: 'auto',
     marginBottom: 15,
     alignItems: 'center',
+    backgroundColor: 'transparent',
   },
   messageText: {
-    fontSize: 18,
-    fontFamily: 'GamjaFlower',
+    fontSize: 28,
+    fontFamily: 'NanumPen',
     color: '#FFFFFF',
-    letterSpacing: 0.2,
-    textShadowColor: 'rgba(0, 0, 0, 0.8)',
-    textShadowOffset: { width: 0, height: 1.5 },
+    letterSpacing: 0.5,
+    textShadowColor: 'rgba(0, 0, 0, 1)',
+    textShadowOffset: { width: 0, height: 0 },
     textShadowRadius: 4,
   },
   controls: {
