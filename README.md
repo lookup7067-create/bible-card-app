@@ -1,50 +1,32 @@
-# Welcome to your Expo app 👋
+# 📖 말씀 카드 앱 (Bible Card App)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+마음을 담아 성경 말씀 카드를 만들고 공유하는 따뜻한 앱입니다.
 
-## Get started
+## ✨ 주요 기능
+- **자동 말씀 불러오기**: 성경 구절(예: 이사야 44:1)을 입력하면 자동으로 내용을 불러옵니다.
+- **감성적인 배경**: 말씀 내용에 따라 자동으로 어울리는 예쁜 일러스트 배경이 지정됩니다. 🐑🕊️
+- **손글씨 폰트**: '감자꽃' 폰트를 사용하여 정성스럽게 쓴 느낌을 줍니다.
+- **이미지 저장 및 공유**: 만든 카드를 앨범에 저장하거나 친구에게 바로 공유할 수 있습니다.
+- **완전 무료**: 기획자도 사용자도 모두 무료로 사용할 수 있도록 설계되었습니다.
 
-1. Install dependencies
+## 🚀 배포 및 사용 방법
+이 앱은 Expo를 사용하여 제작되었습니다.
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### 1. 로컬 실행 (개발용)
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. 웹 배포 (추천)
+GitHub Pages 등을 통해 무료로 웹 앱 형태로 배포할 수 있습니다. 이 경우 안드로이드, 아이폰 사용자 모두 무료로 링크를 통해 접속 가능합니다.
 
-## Learn more
+## 🛠 사용된 기술
+- React Native / Expo
+- @expo-google-fonts/gamja-flower
+- expo-media-library (이미지 저장)
+- react-native-view-shot (이미지 캡처)
+- ibibles.net API (성경 데이터)
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📄 라이선스
+이 프로젝트는 무료 나눔 목적으로 제작되었습니다.
